@@ -7,7 +7,7 @@ public class CSSE4 {
          System.out.println("As part of your learning, the GP has asked you to demonstrate your examination skills of the peripheral nervous system of the upper and lower limbs, as well as the musculoskeletal system of the lower limbs by performing specific tasks");
          System.out.println("Tasks:");
          System.out.println("Demonstrate the following physical examinations:");
-
+//why is getting 2 different random numbers so complicated wtf my 1 brain cell can't handle this 
         ArrayList<Integer> ULPNSlist = new ArrayList<Integer>();
         for (int i=1; i<13; i++) {
             ULPNSlist.add(new Integer(i));
@@ -119,7 +119,7 @@ public class CSSE4 {
  int min = 1;       
  int max = 3;
  int LLMSKrandom = (int)(Math.random()*((max-min)+1))+min;
- //chooses which area of the LL ths MSK exam is to be performed on
+ //chooses which area of the LL the MSK exam is to be performed on
  //1 Hips, 2 Knees, 3 Ankles or Feet
  if (LLMSKrandom == 1) {
     
